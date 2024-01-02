@@ -17,7 +17,7 @@ void	*ft_calloc(size_t nelem, size_t elsize)
 	void	*l;
 
 	l = (void *)malloc(nelem * elsize);
-	if (!l || (SIZE_MAX == elsize && SIZE_MAX == nelem))
+	if (!l || (FT_SIZE_MAX == elsize && FT_SIZE_MAX == nelem))
 		return (NULL);
 	ft_bzero(l, nelem * elsize);
 	return (l);

@@ -17,7 +17,7 @@
 # include <stdlib.h>
 # include <string.h>
 
-# define SIZE_MAX 5
+# define FT_SIZE_MAX 5
 
 typedef struct s_list
 {
